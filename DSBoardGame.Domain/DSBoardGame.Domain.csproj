@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Castle.Windsor" Version="4.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DSBoardGame.Contracts\DSBoardGame.Contracts.csproj" />
+    <ProjectReference Include="..\DSBoardGame.Domain.Models\DSBoardGame.Domain.Models.csproj" />
+  </ItemGroup>
+
+</Project>
