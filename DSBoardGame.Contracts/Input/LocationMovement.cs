@@ -4,9 +4,9 @@ using System.Text;
 
 namespace DSBoardGame.Contracts.Input
 {
-   public interface ILocationMovement
+   public class LocationMovement
     {
-        string GameId { get; }
-        string NewLocationId { get; }
+        Guid GameId { get; }
+        Guid NewLocationId { get; }
     }
 }

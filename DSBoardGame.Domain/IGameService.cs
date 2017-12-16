@@ -12,7 +12,7 @@ namespace DSBoardGame.Domain
     {
         IGame Get(string Id);
         IEnumerable<IBaseGame> GetList();
-        string Create(IGameCreate gameCreate);
+        string Create(GameCreate gameCreate);
         void AddPlayer(string Id);
         
         void SetMiniBoss();

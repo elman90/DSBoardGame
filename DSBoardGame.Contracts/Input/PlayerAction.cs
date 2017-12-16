@@ -4,7 +4,7 @@ using System.Text;
 
 namespace DSBoardGame.Contracts.Input
 {
-    public interface IPlayerAction
+    public class PlayerAction
     {
         string GameId { get; }
         string PlayerId { get; }

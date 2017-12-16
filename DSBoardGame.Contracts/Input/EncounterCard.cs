@@ -1,6 +1,6 @@
 ﻿using System;
+
 using System.Collections.Generic;
-using System.Text;
 
 namespace DSBoardGame.Contracts.BehaviourModels
 {
@@ -20,9 +20,18 @@ namespace DSBoardGame.Contracts.BehaviourModels
         E2 = 11,
         E3 = 12,
     }
-    public interface IPosition
+    public class EncounterCard
     {
-        Positions Coordinate { get; }
 
+        List<Guid> EnemyList { get; }
+        bool isTrapped { get; }
+        TreasureChest TreasureChest { get; }
+        List<string> BarrelLocations { get; }
+
+    }
+
+    public class TreasureChest
+    {
+        public Positions Position { get; set; }
     }
 }
