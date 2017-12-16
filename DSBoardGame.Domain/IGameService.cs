@@ -10,8 +10,8 @@ namespace DSBoardGame.Domain
 {
    public interface IGameService
     {
-        IGame Get(string Id);
-        IEnumerable<IBaseGame> GetList();
+        BaseGame Get(string Id);
+        IEnumerable<BaseGame> GetList();
         string Create(GameCreate gameCreate);
         void AddPlayer(string Id);
         

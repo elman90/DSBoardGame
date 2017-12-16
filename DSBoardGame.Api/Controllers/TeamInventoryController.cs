@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using DSBoardGame.Contracts.BehaviourModels;
+using DSBoardGame.Contracts.Output;
 
 namespace DSBoardGame.Api.Controllers
 {
@@ -14,7 +15,7 @@ namespace DSBoardGame.Api.Controllers
     {
         // GET: api/GameDeck
         [HttpGet]
-        public IEnumerable<IItem> Get(string gameId)
+        public IEnumerable<Item> Get(string gameId)
         {
             throw new NotImplementedException();
         }

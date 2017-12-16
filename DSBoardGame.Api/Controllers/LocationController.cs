@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using DSBoardGame.Contracts.BehaviourModels.Game;
+﻿using DSBoardGame.Contracts.BehaviourModels;
 using DSBoardGame.Contracts.Input;
-using DSBoardGame.Contracts.BehaviourModels;
+using DSBoardGame.Contracts.Output;
+using Microsoft.AspNetCore.Mvc;
+using System;
 
 namespace DSBoardGame.Api.Controllers
 {
@@ -14,16 +10,11 @@ namespace DSBoardGame.Api.Controllers
     [Route("api/Location")]
     public class LocationController : Controller
     {
-        // GET: api/Location
-        [HttpGet]
-        public IEnumerable<ILocation> Get(string gameId)
-        {
-            throw new NotImplementedException();
-        }
+  
 
         // GET: api/Location/5
         [HttpGet("{id}", Name = "Get")]
-        public ILocation Get(string gameId,string locationId)
+        public LocationState Get(LocationStateRequest request)
         {
             throw new NotImplementedException();
 
@@ -31,13 +22,13 @@ namespace DSBoardGame.Api.Controllers
 
         // POST: api/Location
         [HttpPost]
-        public void Post(ILocationMovement locationMovement)
+        public void Post(LocationMovement locationMovement)
         {
         }
         
         // PUT: api/Location/5
         [HttpPut("{id}")]
-        public void Put(IEncounterCard encounterCard)
+        public void Put(EncounterCard encounterCard)
         {
         }
         

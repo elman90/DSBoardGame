@@ -7,8 +7,9 @@ using Microsoft.AspNetCore.Mvc;
 using DSBoardGame.Domain.BehaviourModels;
 using DSBoardGame.Domain;
 using DSBoardGame.Contracts.Input;
+
+
 using DSBoardGame.Contracts.Output;
-using DSBoardGame.Contracts.BehaviourModels;
 
 namespace DSBoardGame.Api.Controllers
 {
@@ -22,20 +23,20 @@ namespace DSBoardGame.Api.Controllers
             _gameService = gameService;
         }
 
-        public IEnumerable<IBaseGame> Get()
+        public IEnumerable<BaseGame> Get()
         {
             return _gameService.GetList();
         }
 
         [HttpGet("{id}", Name = "Get")]
-        public IGame Get(string id)
+        public BaseGame Get(string id)
         {
             return _gameService.Get(id);
         }
 
         // POST: api/Game
         [HttpPost]
-        public string Post(IGameCreate gameCreate)
+        public string Post(GameCreate gameCreate)
         {
             return _gameService.Create(gameCreate);
         }

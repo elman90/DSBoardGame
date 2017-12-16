@@ -22,7 +22,7 @@ namespace DSBoardGame.Api.Controllers
         
         // POST: api/PlayerAction
         [HttpPost]
-        public void Post(IPlayerAction action)
+        public void Post(PlayerAction action)
         {
             _playerActionService.AddPlayerAction(action);
         }

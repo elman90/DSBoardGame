@@ -7,6 +7,6 @@ namespace DSBoardGame.Domain
 {
    public interface IGameEngine
     {
-        void UpdateGame(IPlayerAction playerAction);
+        void UpdateGame(PlayerAction playerAction);
     }
 }

@@ -7,6 +7,6 @@ namespace DSBoardGame.Domain
 {
    public interface IPlayerActionService
     {
-        void AddPlayerAction(IPlayerAction playerAction);
+        void AddPlayerAction(PlayerAction playerAction);
     }
 }
