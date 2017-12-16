@@ -1,4 +1,6 @@
-﻿namespace DSBoardGame.Contracts.BehaviourModels
+﻿using TEMP.Game;
+
+namespace TEMP.Items
 {
     public interface IDice
     {

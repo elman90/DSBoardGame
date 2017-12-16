@@ -1,13 +1,13 @@
-﻿using DSBoardGame.Contracts.BehaviourModels.Environment;
+﻿using TEMP.Characters;
 
-namespace DSBoardGame.Contracts.BehaviourModels
+namespace TEMP.Environment
 {
     public interface ITrap : IBasePawn
     {
         int Damage { get; }
 
         bool IsEnabled { get; }
+        void Trip(IPlayer target);
 
-    
     }
 }

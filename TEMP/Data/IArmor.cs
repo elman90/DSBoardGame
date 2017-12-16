@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using TEMP.Data;
 
-namespace DSBoardGame.Contracts.BehaviourModels
+namespace TEMP.Items
 {
     public interface IArmor : IItem
     {

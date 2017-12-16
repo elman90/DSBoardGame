@@ -1,4 +1,4 @@
-﻿namespace DSBoardGame.Contracts.BehaviourModels
+﻿namespace TEMP.Items
 {
     public interface IEquipment
     {

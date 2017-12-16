@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace DSBoardGame.Contracts.BehaviourModels
+namespace TEMP.Items
 {
     public interface IItemValue
     {

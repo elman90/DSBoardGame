@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace DSBoardGame.Contracts.BehaviourModels.Characters
+﻿namespace TEMP.ValueObjects
 {
     public interface IPlayerStats
     {

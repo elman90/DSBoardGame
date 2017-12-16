@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-namespace DSBoardGame.Contracts.BehaviourModels.Game
+﻿namespace TEMP.Game
 {
     public interface IBonfire :ILocation
     {

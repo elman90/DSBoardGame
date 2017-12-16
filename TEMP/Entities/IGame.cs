@@ -1,8 +1,9 @@
-﻿using DSBoardGame.Contracts.BehaviourModels.Characters;
-using DSBoardGame.Contracts.BehaviourModels.Game;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
+using TEMP.Characters;
+using TEMP.Data;
+using TEMP.Items;
 
-namespace DSBoardGame.Contracts.BehaviourModels
+namespace TEMP.Game
 {
     public enum AttackTypes
     {
@@ -28,14 +29,12 @@ namespace DSBoardGame.Contracts.BehaviourModels
 
         string Name { get;  }
 
-        //List<IPlayer> Players { get; }
+        List<IPlayer> Players { get; }
 
         ILocation CurrentLocation{ get; }
         IEnumerable<ILocation> PossibleLocations { get; }
         IEnumerable<IItem> TeamInventory { get; }
-        IBoss MiniBoss { get; }
-
-        IBoss MainBoss { get; }
+ 
 
     }
 }

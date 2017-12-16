@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using TEMP.Items;
 
-namespace DSBoardGame.Contracts.BehaviourModels.Characters
+namespace TEMP.Characters
 {
     public interface IPlayerClass
     {

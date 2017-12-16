@@ -1,12 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
-namespace DSBoardGame.Contracts.BehaviourModels.Environment
+namespace TEMP.Environment
 {
    public interface IBasePawn
     {
-        string Id { get; }
+        Guid Id { get; }
         IPosition CurrentPosition { get; }
     }
 }
