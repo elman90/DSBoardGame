@@ -1,6 +1,6 @@
-﻿using TEMP.Characters;
+﻿using DSBoardGame.Domain.Models.Entities;
 
-namespace TEMP.Environment
+namespace DSBoardGame.Domain.Models.Environment
 {
     public interface ITrap : IBasePawn
     {

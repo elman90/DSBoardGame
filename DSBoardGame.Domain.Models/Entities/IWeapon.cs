@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using TEMP.Data;
-using TEMP.Game;
+using DSBoardGame.Domain.Models.Data;
 
-namespace TEMP.Items
+namespace DSBoardGame.Domain.Models.Entities
 {
     public interface IWeapon:IItem
     { 
@@ -13,7 +12,7 @@ namespace TEMP.Items
 
     public interface IWeaponAttack
     {
-        IItemValue Value { get; }
+
         AttackTypes AttackType { get; }
         int StaminaCost { get; }
         IDamage LaunchAttack(int damage);

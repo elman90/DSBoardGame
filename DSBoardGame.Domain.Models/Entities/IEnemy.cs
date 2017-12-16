@@ -1,7 +1,6 @@
-﻿using TEMP.Environment;
-using TEMP.Items;
+﻿using DSBoardGame.Domain.Models.Environment;
 
-namespace TEMP.Characters
+namespace DSBoardGame.Domain.Models.Entities
 {
     public interface IEnemy :IBasePawn
     {

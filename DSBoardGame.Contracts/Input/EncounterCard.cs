@@ -24,7 +24,7 @@ namespace DSBoardGame.Contracts.BehaviourModels
     {
 
         List<Guid> EnemyList { get; }
-        bool isTrapped { get; }
+        bool IsTrapped { get; }
         TreasureChest TreasureChest { get; }
         List<string> BarrelLocations { get; }
 

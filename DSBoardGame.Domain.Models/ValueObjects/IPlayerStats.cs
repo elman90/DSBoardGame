@@ -1,4 +1,4 @@
-﻿namespace TEMP.ValueObjects
+﻿namespace DSBoardGame.Domain.Models.ValueObjects
 {
     public interface IPlayerStats
     {

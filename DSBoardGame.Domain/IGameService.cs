@@ -1,14 +1,10 @@
-﻿using DSBoardGame.Contracts.BehaviourModels;
-using DSBoardGame.Contracts.Input;
+﻿using DSBoardGame.Contracts.Input;
 using DSBoardGame.Contracts.Output;
-using DSBoardGame.Domain.BehaviourModels;
-using System;
 using System.Collections.Generic;
-using System.Text;
 
 namespace DSBoardGame.Domain
 {
-   public interface IGameService
+    public interface IGameService
     {
         BaseGame Get(string Id);
         IEnumerable<BaseGame> GetList();

@@ -1,6 +1,6 @@
-﻿using TEMP.Items;
+﻿using DSBoardGame.Domain.Models.Entities;
 
-namespace TEMP.Characters
+namespace DSBoardGame.Domain.Models.ValueObjects
 {
     public interface IPlayerClass
     {

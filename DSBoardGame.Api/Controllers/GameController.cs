@@ -1,15 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.Mvc;
-using DSBoardGame.Domain.BehaviourModels;
-using DSBoardGame.Domain;
-using DSBoardGame.Contracts.Input;
-
-
+﻿using DSBoardGame.Contracts.Input;
 using DSBoardGame.Contracts.Output;
+using DSBoardGame.Domain;
+using Microsoft.AspNetCore.Mvc;
+using System.Collections.Generic;
 
 namespace DSBoardGame.Api.Controllers
 {

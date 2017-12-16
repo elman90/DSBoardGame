@@ -1,4 +1,4 @@
-﻿namespace TEMP.Environment
+﻿namespace DSBoardGame.Domain.Models.Environment
 {
    public interface IBarrel:IBasePawn
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace TEMP.Environment
+namespace DSBoardGame.Domain.Models.Environment
 {
    public interface IBasePawn
     {

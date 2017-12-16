@@ -1,9 +1,7 @@
 ﻿using System.Collections.Generic;
-using TEMP.Characters;
-using TEMP.Data;
-using TEMP.Items;
+using DSBoardGame.Domain.Models.Data;
 
-namespace TEMP.Game
+namespace DSBoardGame.Domain.Models.Entities
 {
     public enum AttackTypes
     {

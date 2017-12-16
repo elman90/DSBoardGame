@@ -1,4 +1,6 @@
-﻿namespace TEMP.Game
+﻿using DSBoardGame.Domain.Models.Entities;
+
+namespace DSBoardGame.Domain.Models.Game
 {
     public interface IBonfire :ILocation
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using TEMP.Data;
-using TEMP.Environment;
-using TEMP.Items;
+using DSBoardGame.Domain.Models.Data;
+using DSBoardGame.Domain.Models.Environment;
+using DSBoardGame.Domain.Models.ValueObjects;
 
-namespace TEMP.Characters
+namespace DSBoardGame.Domain.Models.Entities
 {
     public interface IPlayer : IBasePawn
     {

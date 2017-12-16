@@ -1,8 +1,7 @@
 ﻿using System.Collections.Generic;
-using TEMP.Characters;
-using TEMP.Environment;
+using DSBoardGame.Domain.Models.Environment;
 
-namespace TEMP.Game
+namespace DSBoardGame.Domain.Models.Entities
 {
     public interface ILocation
     {
